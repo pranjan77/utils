@@ -13,3 +13,7 @@ gs: cursor at nerd tree
 
 
 https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt
+
+
+:set paste for non-formatted pasting
+:set nopaste for opposite
