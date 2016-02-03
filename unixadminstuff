@@ -1,0 +1,13 @@
+
+#Add a user as sudoer
+
+If it doesn't exist create this group
+Add following line in /etc/sudoers
+We can also use any other name/group here for different kind of accessed
+
+%sudo	ALL=(ALL:ALL) ALL
+
+
+
+And then run the command usermod
+usermod -aG sudo pranjan77
