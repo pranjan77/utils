@@ -1,0 +1,31 @@
+Download sublime text from https://www.sublimetext.com/3
+
+Put https://packagecontrol.io/installation in console of sublime text
+and paste in console (view show console) and hit enter
+
+Restart sublime text
+
+Brackethighlighter
+cmd + shift + p .. type install ..select install package and hit enter
+searcn brackethighlighter and install that
+
+Sidebarenhancements
+cmd + shift + p .. type install ..select install package and hit enter
+search sidebarenhancements and install
+
+right click on folder open with -> edit applications -> change path of iterm
+{
+				"caption": "iterm",
+				"id": "side-bar-files-open-with-iterm",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "/Applications/iTerm.app/", // WINNT
+									"extensions":"", //open all even folders
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+      
+  
