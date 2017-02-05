@@ -1,31 +1,48 @@
-Download sublime text from https://www.sublimetext.com/3
+1. Download sublime text from https://www.sublimetext.com/3
 
-Put https://packagecontrol.io/installation in console of sublime text
+2. Put https://packagecontrol.io/installation in console of sublime text
 and paste in console (view show console) and hit enter
 
-Restart sublime text
+3. Restart sublime text
 
-Brackethighlighter
+4. Brackethighlighter
 cmd + shift + p .. type install ..select install package and hit enter
 searcn brackethighlighter and install that
 
-Sidebarenhancements
+5. Sidebarenhancements
 cmd + shift + p .. type install ..select install package and hit enter
 search sidebarenhancements and install
 
 right click on folder open with -> edit applications -> change path of iterm
 {
-				"caption": "iterm",
-				"id": "side-bar-files-open-with-iterm",
-
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "/Applications/iTerm.app/", // WINNT
-									"extensions":"", //open all even folders
-									"args":[]
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			},
+  "caption": "iterm",
+  "id": "side-bar-files-open-with-iterm",
+  "command": "side_bar_files_open_with",
+  "args": {
+	    "paths": [],
+	    "application": "/Applications/iTerm.app/", // mac
+	    "extensions":"", //open all even folders
+	    "args":[]
+	  },
+   "open_automatically" : false // will close the view/tab and launch the application
+},
       
   
+6. sublimecodeintel
+cmd + shift + p .. type install ..select install package and hit enter
+search sublimecodeintel and install
+
+what can it do?
+
+
+7. sublimelinter
+for jshint
+sublimelinter-js
+npm install -g jshint 
+
+and then it will show errors in syntax for javascript
+
+for pylint
+sudo pip install pylint
+and then it will show errors for javascript
+
