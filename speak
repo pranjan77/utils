@@ -1,0 +1,4 @@
+brew install espeak
+brew install ffmpeg
+espeak -m -f myfile --stdout | ffmpeg -i - -ar 44100 -ac 2 -ab 192k -f mp3 final.mp3
+cat final.mp3 final1.mp3 > out.mp3
